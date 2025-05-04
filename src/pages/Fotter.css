@@ -1,0 +1,72 @@
+.Fotter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2d0066;
+    color: #ffffff;
+    margin-top: 3rem;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .left, .middle, .right {
+    flex: 1;
+    min-width: 250px;
+    min-height: 100px;
+    margin: 1rem;
+    background-color:#2d0066 ;
+    color: white;
+  }
+  .middle{
+    margin-left: 8rem;
+    margin-top: 2.5rem;
+  }
+  .left p, .right p {
+    line-height: 1.6;
+    text-align: justify;
+    background-color: #2d0066;
+    font-weight: 100;
+    
+  }
+  .left p{
+    padding: 15px;
+    
+  }
+  
+  .middle p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    background-color: #2d0066;
+    font-weight: 100;
+  }
+  
+  .middle i {
+    margin-right: 8px;
+    color: #f2b705;
+    background-color: #2d0066;
+  }
+  
+  .right p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-top: 3rem;
+  }
+  
+  .right a {
+    color: #f2b705;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .right a:hover {
+    text-decoration: underline;
+  }
+  
+  .Fotter-bottom {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    background-color: #24004d;
+    color: #e0e0e0;
+  }
+  

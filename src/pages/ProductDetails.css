@@ -1,0 +1,100 @@
+
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .product-info {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .product-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin: 10px 0;
+  }
+  
+  .size-options {
+    margin-top: 20px;
+  }
+  
+  .size-options h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .size-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .size-btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .size-btn:hover {
+    background-color: #e0e0e0;
+    border-color: #999;
+  }
+  
+  .size-btn.selected {
+    background-color: #ff6347;
+    color: #fff;
+    border-color: #ff6347;
+  }
+  
+  .add-to-cart-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #2ecc71;
+  }
+  
+  .add-to-cart-btn:active {
+    transform: scale(0.98);
+  }
+  

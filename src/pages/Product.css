@@ -1,0 +1,26 @@
+
+  .Products {
+    display: grid;
+    grid-template-columns: repeat(4, 300px); /* 3 equal columns */
+    gap: 25px; /* Space between items */
+    margin-top: 2rem;
+    place-items: center;
+  }
+  
+  .grid-item {
+    /* background-color: #f0f0f0; */
+    /* padding: 20px; */
+    height: 19rem;
+    width: 13rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .grid-item img{
+    height: 70%;
+    width: 100%;
+  }
+  .Brand{
+    line-height: 1px;
+  }
